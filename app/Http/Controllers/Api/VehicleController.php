@@ -14,14 +14,14 @@ class VehicleController extends Controller
        $vehicle->tolls()->attach([(int)$toll_id]);
        $toll = $vehicle->tolls()->find($toll_id);
 
-       $vehicle->update(["total_expense" => $vehicle->total_expense + $vehicle->vehicleType->price]);
+       $vehicle->update(["total_expended" => $vehicle->total_expended + $vehicle->vehicleType->price]);
        $toll->update(["earnings" => $toll->earnings + $vehicle->vehicleType->price]);
 
        return response()->json([
         "name" => $toll->name,
         "earnings" => $toll->earnings,
         "license" => $vehicle->license,
-        "total_expense" => $vehicle->total_expense
+        "total_expended" => $vehicle->total_expended
        ], 200);
     }
 
@@ -30,7 +30,7 @@ class VehicleController extends Controller
         $vehicle = Vehicle::create([
             "type_id" => $request->type_id,
             "license" => $request->license,
-            "total_expense" => $request->total_expense
+            "total_expended" => $request->total_expended
         ]);
         
         return response()->json($vehicle, 200);
