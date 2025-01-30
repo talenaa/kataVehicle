@@ -26,6 +26,54 @@ class DatabaseSeeder extends Seeder
             "city" => "Recife",
             "earnings" => 0
         ]);
+
+        Toll::create([
+            "name" => "Laranjal",
+            "city" => "Belo Horizonte",
+            "earnings" => 0
+        ]);
+
+        Toll::create([
+            "name" => "Casimiro de Abreu",
+            "city" => "Rio de Janeiro",
+            "earnings" => 0
+        ]);
+
+        Toll::create([
+            "name" => "Synval Guazelli",
+            "city" => "Farroupilha",
+            "earnings" => 0
+        ]);
+
+        Toll::create([
+            "name" => "Estrada do Coco",
+            "city" => "Xique-Xique",
+            "earnings" => 0
+        ]);
+
+        Toll::create([
+            "name" => "Mossoró",
+            "city" => "Natal",
+            "earnings" => 0
+        ]);
+
+        Toll::create([
+            "name" => "Régis Bittencourt",
+            "city" => "Curitiba",
+            "earnings" => 0
+        ]);
+
+        Toll::create([
+            "name" => "Itapipoca",
+            "city" => "Fortaleza",
+            "earnings" => 0
+        ]);
+
+        Toll::create([
+            "name" => "Arteris Litoral Sul",
+            "city" => "Araquari",
+            "earnings" => 0
+        ]);
     
         VehicleType::create([
             "type" => "car",
