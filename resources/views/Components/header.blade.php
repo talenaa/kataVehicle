@@ -1,6 +1,6 @@
 <header>
     <div class="title">
-        <h1>Tolls Station</h1>
+        <h1>Tolls Stations</h1>
     </div>
     <nav>
         <a href="{{ route('tolls') }}" class="btn">View Tolls</a>
