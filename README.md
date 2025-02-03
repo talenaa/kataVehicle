@@ -47,3 +47,20 @@ php artisan test --coverage
 
 And always remeber to put it in the **VSC** terminal everytime you do new tests, so it can update the coverage.
 ***
+
+## Installation requirements
+Before you start to read how to install the app you'll need these requirements:
+>[!NOTE]
+>If you can't install xampp, look for any other local server that supports **MySQL** and **PHP**
+***
+
+1. XAMPP
+
+2. Install Composer
+
+3. Install NPM in Node.js
+
+4. Xdebug (for the tests coverage)
+
+5. Postman
+***
