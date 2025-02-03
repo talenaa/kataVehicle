@@ -26,3 +26,24 @@ Vehicles page:
 ![image](https://github.com/user-attachments/assets/b58b8814-5a09-46cc-98ab-8228e4722cd6)
 
 ***
+
+# Tests
+
+It's always important to test the API, web, models etc. Down below there's a screenshot of all my tests passed.
+
+![Screenshot 2025-02-03 213438](https://github.com/user-attachments/assets/a4ba03c3-0c02-471b-90ac-eb65da9e5767)
+
+To test it and see your coverage put this command in your **VSC** terminal
+```
+php artisan test --coverage
+```
+
+>[!TIP]
+>If you want to see that in the html page put this command
+
+```
+  php artisan test --coverage-html=coverage-report
+```
+
+And always remeber to put it in the **VSC** terminal everytime you do new tests, so it can update the coverage.
+***
