@@ -1,3 +1,28 @@
-## Kata Tolls stations and Vehicles PHP
+# Kata Tolls stations and Vehicles PHP
 
 In this project we need to build an app where we have a toll system, which both tolls and vehicles data are stored. This project was designed with the laravel framework.
+
+## Project Overview
+
+Take a look at how my project turned out.
+***
+
+<p align="center">
+Home page:
+</p>
+
+![Screenshot 2025-02-03 101200](https://github.com/user-attachments/assets/45431b07-1c47-4b64-b77a-8a0de6e27aca)
+
+<p align="center">
+Toll page:
+</p>
+
+![Screenshot 2025-02-03 113708](https://github.com/user-attachments/assets/e26eab00-ddbd-4987-91e7-a6c6e1f01815)
+
+<p align="center">
+Vehicles page:
+</p>
+
+![image](https://github.com/user-attachments/assets/b58b8814-5a09-46cc-98ab-8228e4722cd6)
+
+***
