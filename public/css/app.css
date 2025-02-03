@@ -1,0 +1,70 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(home.css);
+
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    color: #272727;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tollCard, .vehicleCard {
+    background-color: #FFFFFF;
+    border: 1px solid #272727;
+    box-shadow: 6px 4px 6px #000000ba;
+    width: 300px;
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 5px;
+}
+
+.tollCard:hover, .vehicleCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px #00000065;
+}
+
+.tollCard h3, .vehicleCard h3 {
+    color: #222e50;
+    margin-bottom: 10px;
+}
+
+.tollCard h4, .vehicleCard h4 {
+    color: #0093b4;
+    margin: 10px 0 5px;
+}
+
+.tollCard p, .vehicleCard p {
+    margin: 5px 0;
+    color: #151515;
+}
+
+.title h2 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tollCard, .vehicleCard {
+        width: 90%;
+    }
+}

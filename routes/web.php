@@ -5,7 +5,7 @@ use App\Http\Controllers\TollController;
 use App\Http\Controllers\VehicleController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 
 Route::get('/tolls', [TollController::class, "index"])->name("tolls");

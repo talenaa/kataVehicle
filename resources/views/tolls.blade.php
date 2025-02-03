@@ -11,7 +11,7 @@
                 <div>
                     <h4>Vehicles:</h4>
                     @foreach($toll->vehicles as $vehicle)
-                        <p>{{$vehicle->vehicleType->type}}. {{$vehicle->license}}</p> 
+                        <p>{{$vehicle->vehicleType->type}}. {{$vehicle->license}}</p>
                     @endforeach
                     <h4>Total earned:</h4>
                     <p>${{$toll->earnings}}</p>
