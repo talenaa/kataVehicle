@@ -64,3 +64,23 @@ Before you start to read how to install the app you'll need these requirements:
 
 5. Postman
 ***
+
+# Installation
+
+1. Clone this repository:
+```
+https://github.com/talenaa/kataVehicle.git
+```
+
+2. Install composer and NPM through the VSC terminal
+```
+composer install
+```
+```
+npm install
+```
+
+3. In the .env file scroll a bit down and change the existing lines for these following lines:
+![Screenshot 2025-02-04 005456](https://github.com/user-attachments/assets/cecb4bd0-8eee-4f1e-b575-af9a1e4cf794)
+
+***
