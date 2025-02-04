@@ -81,6 +81,33 @@ npm install
 ```
 
 3. In the .env file scroll a bit down and change the existing lines for these following lines:
+
 ![Screenshot 2025-02-04 005456](https://github.com/user-attachments/assets/cecb4bd0-8eee-4f1e-b575-af9a1e4cf794)
 
 ***
+
+## 📋 Jira backlog
+![Screenshot 2025-02-04 005629](https://github.com/user-attachments/assets/ca85be02-6290-484c-878b-6e3ca335d852)
+
+***
+
+## BBDD
+
+![Screenshot 2025-01-29 151516](https://github.com/user-attachments/assets/0b1c734e-1051-4800-8952-0fef6e92c188)
+
+***
+
+## 🧰 Languages and Tools
+
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='xampp' src='https://img.shields.io/badge/xampp-100000?style=for-the-badge&logo=xampp&logoColor=white&labelColor=FF8800&color=FF8800'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='postman' src='https://img.shields.io/badge/postman-100000?style=for-the-badge&logo=postman&logoColor=white&labelColor=FF0000&color=FF0000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='PHP' src='https://img.shields.io/badge/PHP-100000?style=for-the-badge&logo=PHP&logoColor=white&labelColor=896696&color=896696'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='git' src='https://img.shields.io/badge/git-100000?style=for-the-badge&logo=git&logoColor=white&labelColor=FF0000&color=FF0000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='github' src='https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='mysql' src='https://img.shields.io/badge/mysql-100000?style=for-the-badge&logo=mysql&logoColor=white&labelColor=1C662F&color=1C662F'/></a>
+
+***
+
+## 🧑‍💻 Author
+
+This project was fully developed by: https://github.com/talenaa
