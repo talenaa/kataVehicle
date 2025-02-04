@@ -1,66 +1,113 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+ Kata Tolls stations and Vehicles PHP
+
+In this project we need to build an app where we have a toll system, which both tolls and vehicles data are stored. This project was designed with the laravel framework.
+
+## Project Overview
+
+Take a look at how my project turned out.
+***
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+Home page:
 </p>
 
-## About Laravel
+![Screenshot 2025-02-03 101200](https://github.com/user-attachments/assets/45431b07-1c47-4b64-b77a-8a0de6e27aca)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+Toll page:
+</p>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Screenshot 2025-02-03 113708](https://github.com/user-attachments/assets/e26eab00-ddbd-4987-91e7-a6c6e1f01815)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p align="center">
+Vehicles page:
+</p>
 
-## Learning Laravel
+![image](https://github.com/user-attachments/assets/b58b8814-5a09-46cc-98ab-8228e4722cd6)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+***
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+# Tests
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+It's always important to test the API, web, models etc. Down below there's a screenshot of all my tests passed.
 
-## Laravel Sponsors
+![Screenshot 2025-02-03 213438](https://github.com/user-attachments/assets/a4ba03c3-0c02-471b-90ac-eb65da9e5767)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+To test it and see your coverage put this command in your **VSC** terminal
+```
+php artisan test --coverage
+```
 
-### Premium Partners
+>[!TIP]
+>If you want to see that in the html page put this command
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+```
+  php artisan test --coverage-html=coverage-report
+```
 
-## Contributing
+And always remeber to put it in the **VSC** terminal everytime you do new tests, so it can update the coverage.
+***
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Installation requirements
+Before you start to read how to install the app you'll need these requirements:
+>[!NOTE]
+>If you can't install xampp, look for any other local server that supports **MySQL** and **PHP**
+***
 
-## Code of Conduct
+1. XAMPP
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+2. Install Composer
 
-## Security Vulnerabilities
+3. Install NPM in Node.js
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+4. Xdebug (for the tests coverage)
 
-## License
+5. Postman
+***
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# Installation
+
+1. Clone this repository:
+```
+https://github.com/talenaa/kataVehicle.git
+```
+
+2. Install composer and NPM through the VSC terminal
+```
+composer install
+```
+```
+npm install
+```
+
+3. In the .env file scroll a bit down and change the existing lines for these following lines:
+
+![Screenshot 2025-02-04 005456](https://github.com/user-attachments/assets/cecb4bd0-8eee-4f1e-b575-af9a1e4cf794)
+
+***
+
+## 📋 Jira backlog
+![Screenshot 2025-02-04 005629](https://github.com/user-attachments/assets/ca85be02-6290-484c-878b-6e3ca335d852)
+
+***
+
+## BBDD
+
+![Screenshot 2025-01-29 151516](https://github.com/user-attachments/assets/0b1c734e-1051-4800-8952-0fef6e92c188)
+
+***
+
+## 🧰 Languages and Tools
+
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='xampp' src='https://img.shields.io/badge/xampp-100000?style=for-the-badge&logo=xampp&logoColor=white&labelColor=FF8800&color=FF8800'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='postman' src='https://img.shields.io/badge/postman-100000?style=for-the-badge&logo=postman&logoColor=white&labelColor=FF0000&color=FF0000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='PHP' src='https://img.shields.io/badge/PHP-100000?style=for-the-badge&logo=PHP&logoColor=white&labelColor=896696&color=896696'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='git' src='https://img.shields.io/badge/git-100000?style=for-the-badge&logo=git&logoColor=white&labelColor=FF0000&color=FF0000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='github' src='https://img.shields.io/badge/github-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=000000&color=000000'/></a>
+<a href='https://github.com/shivamkapasia0' target="_blank"><img alt='mysql' src='https://img.shields.io/badge/mysql-100000?style=for-the-badge&logo=mysql&logoColor=white&labelColor=1C662F&color=1C662F'/></a>
+
+***
+
+## 🧑‍💻 Author
+
+This project was fully developed by: https://github.com/talenaa
